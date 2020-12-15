@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fazeel Ahmad Assignment-2</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <section class="section1">
+        <h1>Web Design Assignment-2</h1>
+        <h4>by Fazeel Ahmad</h4>
+
+        <p style="color: #fdb827; background-color: #23120b; padding: 5px 0 5px 0;">In this Portion I have changed the colors of certain text portion, made <b>few words Bold</b>, <u>few words Underlined</u> and <i>few words talic</i> using in-line css.</p>
+        <p style="background-color: #98acf8; padding: 5px 0 5px 0;">In this portion I have used some Lorem Ipsem Text and changed the background color of whole paragraph.<br>
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p style="background-color:#b088f9; padding: 5px 0 5px 0;">I have also added a external css file named styles.css and grouped this section in a class named <b>Section1</b> and added few css properties like changed the background color of whole sectoin to a light blue color and aligned whole section1 to center and added a bit of padding on each sides to make it look good.</p>
+        <p style="background-color: #fd3a69; padding: 5px 0 5px 0;">Answer 1 and Answer 2 ends here</p>
+
+    </section>
+
+    <section class="section2">
+      <h2 class="s2h2">This is a Form</h2>
+
+      <form class="form1" action="index.html">
+
+        <label for="fname">First Name</label><br>
+        <input type="text" name="fname" id="fname"><br>
+
+        <label for="lname">Last Name</label><br>
+        <input type="text" name="lname" id="lname"><br>
+
+        <label for="age">Age</label><br>
+        <input type="text" name="age" id="age"><br>
+
+        <label for="add">Address</label><br>
+        <textarea name="add" id="add" rows="4" cols="20"></textarea><br>
+
+        <label for="fmovie">Favorite Movie</label><br>
+        <input type="text" name="fmovie" id="fmovie"><br>
+
+        <p>Please select your gender:</p>
+
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+
+        <p>Which vehicle you have?</p>
+
+        <input type="checkbox" id="bike" name="bike" value="Bike">
+        <label for="bike"> bike</label><br>
+
+        <input type="checkbox" id="car" name="car" value="Car">
+        <label for="car"> car</label><br>
+
+        <label for="pwd">Password</label><br>
+        <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset" name="reset" value="Reset">
+
+      </form>
+      <p  style="background-color: #fd3a69; padding: 5px 0 5px 0; text-align: center;">Answer 3 and Answer 4 ends here</p>
+    </section>
+
+    <section class="section3">
+
+
+      <h2>This is a Registration form</h2>
+
+      <form name="form2" class="form2" onsubmit="return validateForm()">
+
+      <label for="uname">User Name</label><br>
+      <input type="text" name="uname" id="uname"><br>
+
+      <label for="mail">E-mail</label><br>
+      <input type="email" name="mail" id="mail"><br>
+
+      <label for="pass">Password</label><br>
+      <input type="password" name="pass" id="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"><br><br>
+
+      <a href="./new.html"><input class="submit" type="submit" value="Submit" /></a>
+      <input  type="reset" value="Reset" />
+
+      </form>
+
+      <p  style="background-color: #fd3a69; padding: 5px 0 5px 0; text-align: center;">Answer 5 ends here</p>
+
+    </section>
+    <section class="section4">
+      <h2>This section is for Question 8</h2>
+      <p class="changetxt">This is a dynamic heading</p>
+      <p>Click on the bottons to change the styling of above heading.</p>
+        <input class="boldbtn" type="button" value="Bold" />
+        <input class="italicbtn" type="button" value="Italic" />
+        <input class="underlinebtn" type="button" value="Underline" />
+      </form>
+
+      <p  style="background-color: #fd3a69; padding: 5px 0 5px 0; text-align: center;">Answer 8 ends here</p>
+
+      <p>This botton will take you to a new page</p>
+      <a href="./new.html"> <button type="button">Submit</button> </a>
+
+    </section>
+
+    <footer style="text-align: center;"><strong>Disclaimer*:-</strong>This Assignment solely made Fazeel Ahmad of B.C.A. 3rd year of Group B, any resemblence to any other Assignment is purely coincident.</footer>
+
+
+
+      <script src="app.js"></script>
+  </body>
+</html>
